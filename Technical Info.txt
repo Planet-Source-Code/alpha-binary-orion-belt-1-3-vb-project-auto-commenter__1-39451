@@ -1,0 +1,71 @@
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   * (O) R I O N   B E L T *   *   *   *   *   *   *   *   *   *
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   *   *||/ *   *   *   *   *   *   *   *   *   *   *   *   *   *
+- - - - - - - - - - - - - - - - - - - - - - ooO ("") - Best viewed in Notepad with font Courier New, 9 pt.
+         _____                                                         _______
+        /  |  \   ____    ___         _____    ___   ___                  |             ___   ___
+           |     /       /     |\  |    |     /     |   |  |              |     |\  |  /     /   \
+           |    (----   (      | \ |    |    (      |---|  |              |     | \ |  |---  |   |
+                 \____   \___  |  \|  __|__   \___  |   |  |___        ___|___  |  \|  |     \___/
+                                                                                                 :
+                        .........................................................................:....
+                        :    ...                                                                 :   :
+             ...........:    : :     ..... ©opyright 2001 by Alpha - Orion Belt™ and its logo is :...:
+             :               : :     :   :     .......... a registered trademark of Omegasoft Inc.
+ ............:               : :     :   :     :        :     .................. All Right Reserved!!
+ :.. How Does It Work? ......: :.....:   :.....:        :.....:                :......................
+     ^^^^^^^^^^^^^^^^^
+
+These are tactics written by ME, Alph@, in the developing of version 1.00. In later versions, things might change, but these core will (should) still be the same. For anyone who found it hard to understand the basics from the project code, take a look at this document.
+
+First, let's look at vb files. There're several kinds of files that can be commented, seperated into 3 group. Group 1 - Project: Project File(*.vbp). Group 2 - User-Interface Module: Form(*.frm), Usercontrol(*.ctl), and Property Pages(*.pag). Finally Group 3 - Code-Based Modules: Module(*.bas) and Class(*.cls)
+
+And now we'll see what's inside those files. Project files first! ('...' means it's vary for each project, [ and ] means it might not exist in some files, and words in brackets are comments/examples)
+
+Zone 1: Basics
+Type=... (Exe, etc.)
+
+Zone 2: Included
+[Reference=...]
+[Form=...
+Module=...
+...=...] (Modules List)
+[RelatedDoc=...
+RelatedDoc=...] (Here's where documents could be attached to the project - we insert this line to add an info document) (P.S. You can insert it from VB by right-clicking at the Project Explorer and choose Add>Add File... and then choose the file you wanna include. Never forget to tick the 'Add as related document' checkbox.)
+
+Zone 3: Project Properties
+IconForm="..."
+Startup="..."
+HelpFile="..."
+Title="..."
+Command32=""
+Name="..."
+HelpContextID="..."
+CompatibleMode="..."
+MajorVer=...
+MinorVer=...
+RevisionVer=...
+AutoIncrementVer=...
+... (etc. etc. we don't have to give a damn)
+
+There're 3 zone to comment: Project, modules, and procedures (though user is able to turn off some). Here we've the project (put RelatedDoc=... in the project file like above), and for the modules, we search for the line that tells that below this line is an 'actual codes', which appear in the code window in VB. The program should gather some info from the module file and insert some comments in the beginning. And for the procedures we search for the lines (which after trimming) begin w/:
+
+Sub
+Function
+Property
+Private Sub
+Private Func...
+Priv....
+Public Su...
+Public ....
+...
+Static...
+Private Static...
+Public Static...
+... etc. etc.
+
+We read them, and then insert a few lines of comments before it.
+
+etc. etc. etc. Hope this help.

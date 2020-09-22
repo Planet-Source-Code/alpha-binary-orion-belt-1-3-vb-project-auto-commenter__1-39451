@@ -1,0 +1,88 @@
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   * (O)-R-I-O-N---B-E-L-T *   *   *   *   *   *   *   *   *   *
+  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - Best viewed in Notepad with font Courier New, 9 pt.
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::INTRODUCTION TO ORION BELT
+
+Orion Belt is an application that comments your Visual Basic projects. It has many features to make your
+works easier and your project nicer. With comments, people who see the code for the first time will have
+no hard time reading your project. Comments is one of the essential parts in structure (Non-Spaghetti)
+programming, and it's extremely necessary for big projects. But why waste your valuable time thinking,
+designing and commenting your code? Try ORION BELT! It's fast, easy, reliable and after all, it's FREE!!
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::SUPPORTED FEATURES
+
+Orion Belt has many features to support developer's needs. Below is what can be done/added to your
+project. In the brackets is version number the feature was added.
+
+Add related document comments to the project (1.0)
+Add module-Level comments to describe the module (1.0)
+Add procedures-Level comments for each procedures (1.0)
+Ability to choose what should not be included with comments (1.0)
+Decorations and styles for the comments added (1.0)
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::VERSION HISTORY
+
+What Have Been Improved?
+========================
+
+Version 1.0
+~~~~~~~~~~~
+Well, of course everything is new, this is the first version isn't it!
+
+Version 1.1
+~~~~~~~~~~~
+Some minor bugs fixed.
+
+Version 1.2
+~~~~~~~~~~~
+Error used to occur when reach a non-event-based procedure that has an argument with "_". Now fixed. Some minor bugs fixed also.
+
+Version 1.3
+~~~~~~~~~~~
+- Orion Belt now remembers old settings
+- A bug that occurs on the uncheck of "Add name, object and event in procedures" option is now fixed.
+- Now handles write-protected files well.
+- Now supports multiline procedure declarations.
+- Some misspells fixed.
+- Some minor bugs fixed
+
+Expectations for Next Versions
+==============================
+
+Version 2.0
+~~~~~~~~~~~
+- Better decorations
+- Wizard interface
+- Ability to add Err_Handlers(Error Handlers) *COOL*
+- Status reporting (not just 'fake' progressbar as seen in this version ^_^")
+- Command Commenting //HILIGHT//
+- Automatically determine some project information (like title)
+- Ability to seal the Orion information file w/ project
+- Rollback feature
+
+Version 3.0
+~~~~~~~~~~~
+- Even better decorations
+- Ability to add Developer-Reporting-Through-E-Mails Err_Handlers //HILIGHT//
+- More Commenting Options *COOL*
+- More Command Commenting
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::CREDITS
+
+As you might have read that this program is free, and therefore can be distributed for free as long as
+you do not sell it for profit and there's still my name on it. Every project commented by Orion Belt will
+automatically has an 'Orion Belt' credit tag therefore please don't remove it as long as the commented
+project is distributed with the source code. I've spend months on this project so please don't just take
+it, use it and say you wrote it. Thank you for your co-operation. Any comments, good or bad, would be
+greatly appreciated. Please don't forget to vote for my project!
