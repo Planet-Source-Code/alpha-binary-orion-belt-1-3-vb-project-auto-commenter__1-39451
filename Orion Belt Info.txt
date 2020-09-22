@@ -1,0 +1,16 @@
+Project info by Orion Belt 1.3
+Best viewed in Notepad with a fixed-width font, such as Courier New and Terminal
+
+======================================================================
+----------------------------------------------------------------------
+Orion Belt
+Commenting Made Easy!
+By Alpha Binary
+----------------------------------------------------------------------
+Orion Belt comments your every VB projects, forms, modules, to the procedures! It automatically fills in some useful information as comment to make your project easier-to-understand.
+----------------------------------------------------------------------
+© Copyright 2002
+----------------------------------------------------------------------
+======================================================================
+
+Commented by Orion Belt 1.3
